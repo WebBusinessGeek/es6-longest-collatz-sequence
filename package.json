@@ -1,0 +1,31 @@
+{
+  "name": "longest-collatz-sequence",
+  "version": "1.0.0",
+  "description": "solving the longest collatz sequence problem from project euler",
+  "main": "none",
+  "scripts": {
+    "test": "nodemon node_modules/mocha/bin/mocha --compilers js:babel-core/register --watch src --watch test"
+  },
+  "keywords": [
+    "euler"
+  ],
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "epr" : {
+    "src" : "src"
+  },
+
+  "author": "kw",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babel-register": "^6.4.3",
+    "chai": "^3.5.0",
+    "epr": "^1.0.0",
+    "mocha": "^2.4.5",
+    "nodemon": "^1.8.1"
+  }
+}
